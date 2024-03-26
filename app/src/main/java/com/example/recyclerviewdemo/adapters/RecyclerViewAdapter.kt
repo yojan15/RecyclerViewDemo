@@ -11,7 +11,7 @@ import com.example.recyclerviewdemo.model.Demo
 class RecyclerViewAdapter(private var demo : MutableList<Demo>) : RecyclerView.Adapter<RecyclerViewAdapter.RecyclerViewHolder>() {
 
     inner class RecyclerViewHolder(itemView : View) : RecyclerView.ViewHolder(itemView) {
-        val title : TextView = itemView.findViewById(R.id.DemoId)
+        val title : TextView = itemView.findViewById(R.id.demoId)
         val description : TextView = itemView.findViewById(R.id.DemoName)
         val url : TextView = itemView.findViewById(R.id.DemoUrl)
     }
