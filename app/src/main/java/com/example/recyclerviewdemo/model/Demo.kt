@@ -1,4 +1,7 @@
 package com.example.recyclerviewdemo.model
 
-class Demo {
-}
+data class Demo(
+    val title : String,
+    val description : String,
+    val url : String
+)
